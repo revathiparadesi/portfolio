@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.body{
+    background: #fff;
+    color: black;
+}
+#main{
+    width: 100%;
+    background-color: lavender;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.container{
+    padding: 10px 10%;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 15px 0;
+  justify-content: space-between;
+}
+.navbar .logo a{
+  font-size: 30px;
+  color:black;
+  font-weight: bolder;
+  text-decoration: none;
+  width: 100px;
+}
+.navbar .logo a span{
+    color: #ff0000;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    color: black;
+}
+.navbar .menu li a{
+   color: black;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+}
+.navbar .menu li a:hover{
+    background-color: white;
+    color:rgb(230,104,50);
+    box-shadow: 0 0 10px whitesmoke;
+    border-radius: 4px;
+}
+.menu li .active a{
+    background-color: aliceblue;
+    color: black;
+}
+.home .info{
+    margin-top: 20%;
+    font-size: 30px;
+}
+.home .info .h2{
+    font-size: 60px;
+    color: rgb(36,32,30);
+}
+.home .info .h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.home .info span{
+    color: rgb(230,104,59);
+}
+.home .anchor a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 20px 0;
+    padding: 0px 28px;
+    border-radius: 6px;
+    display: inline-block;
+    transition: .4s ease;
+}
+.home .anchor a:hover{
+    background: slateblue;
+}
+.home .image{
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    right: 10px;
+    bottom: 0%;
+}
+.home .image img{
+    position: absolute;
+    height: 100%;
+    left: 60%;
+    top: 2px;
+    transform: translate(-80%);
+    bottom: 0%;
+}
+.aboutme{
+    background: blanchedalmond;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    margin-top: 7%;
+    margin-left: -1%;
+    margin-right: -1%;
+    height: auto;
+    padding: 80px 0;
+    color:black;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.aboutme .col-1{
+    flex-basis: 35%;
+    left: 20%;
+}
+.aboutme .col-2{
+    flex-basis: 60%;
+}       
+.skills{
+    background:lavender;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    margin-top: 7%;
+    margin-left: -1%;
+    margin-right: -1%;
+    height: auto;
+    padding: 80px 0;
+    color:black;
+}
+.contactme{
+    background:blanchedalmond;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    margin-top: 7%;
+    margin-left: -1%;
+    margin-right: -1%;
+    height: auto;
+    padding: 80px 0;
+    color: black;
+}
